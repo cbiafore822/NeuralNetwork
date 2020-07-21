@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class OutputNeuron extends Neuron {
     protected double error;
     protected double value;

@@ -1,3 +1,7 @@
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public abstract class Neuron  {
 
     /**

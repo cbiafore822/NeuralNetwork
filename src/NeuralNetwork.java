@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class NeuralNetwork {
     protected double learningRate;
     protected InputNeuron[] inputs;

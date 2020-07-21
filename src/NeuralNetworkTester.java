@@ -2,6 +2,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.zip.GZIPInputStream;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class NeuralNetworkTester {
 
     /**

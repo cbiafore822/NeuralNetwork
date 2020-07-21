@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"HiddenNeuron"},{"p":"<Unnamed>","l":"InputNeuron"},{"p":"<Unnamed>","l":"NeuralConnection"},{"p":"<Unnamed>","l":"NeuralNetwork"},{"p":"<Unnamed>","l":"NeuralNetworkTester"},{"p":"<Unnamed>","l":"Neuron"},{"p":"<Unnamed>","l":"OutputNeuron"}]

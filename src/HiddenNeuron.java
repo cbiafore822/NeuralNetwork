@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class HiddenNeuron extends Neuron {
     protected double error;
     protected double value;
@@ -60,8 +64,10 @@ public class HiddenNeuron extends Neuron {
         return value;
     }
 
-
-
+    /**
+     * gets the outputs to this neuron
+     * @return ArrayList of Neural Connections from this neuron
+     */
     public ArrayList<NeuralConnection> getOutputs() {
         return outputs;
     }

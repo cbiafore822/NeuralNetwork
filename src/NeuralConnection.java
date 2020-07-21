@@ -1,5 +1,9 @@
 import java.util.Random;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class NeuralConnection {
     protected double weight;
     protected Neuron prevNeuron;

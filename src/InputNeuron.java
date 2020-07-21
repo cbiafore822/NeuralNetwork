@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * @author Cole Biafore
+ * @version 1.0
+ */
 public class InputNeuron extends Neuron {
     protected double error;
     protected double value;
@@ -51,7 +55,7 @@ public class InputNeuron extends Neuron {
     }
 
     /**
-     * gets the inputs to this neuron
+     * gets the outputs to this neuron
      * @return ArrayList of Neural Connections from this neuron
      */
     public ArrayList<NeuralConnection> getOutputs() {
