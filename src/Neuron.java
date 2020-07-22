@@ -3,17 +3,23 @@
  * @version 1.0
  */
 public abstract class Neuron  {
+    protected double error;
+    protected double value;
 
     /**
      * gets the error from this Neuron
      * @return a double representing the error
      */
-    public abstract double getError();
+    public double getError() {
+        return error;
+    }
 
     /**
      * gets the value from this neuron
      * @return a double representing the value
      */
-    public abstract double getValue();
+    public double getValue() {
+        return value;
+    }
 
 }

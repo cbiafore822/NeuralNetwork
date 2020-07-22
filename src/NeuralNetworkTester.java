@@ -18,9 +18,10 @@ public class NeuralNetworkTester {
         byte[] trainingAnswers = decompressGzipFile("data/train-labels-idx1-ubyte.gz");
 
         // Creates neural network
-        NeuralNetwork nn = new NeuralNetwork(new int[]{784, 100, 10}, .5);
+        System.out.println("Creating Network");
+        NeuralNetwork nn = new NeuralNetwork(new int[]{784,50,16,10}, .25);
 
-        System.out.println("Started Training");
+        System.out.println("Starting Training");
         for (int i = 0; i < 60000; i++) { // 60000 pictures
             // Sets up picture data
             int pixel;
@@ -61,7 +62,7 @@ public class NeuralNetworkTester {
         byte[] testingAnswers = decompressGzipFile("data/t10k-labels-idx1-ubyte.gz");
         int correct = 0;
 
-        System.out.println("Started Testing");
+        System.out.println("Starting Testing");
         for (int i = 0; i < 10000; i++) { // 10000 pictures
             // Sets up picture data
             int pixel;

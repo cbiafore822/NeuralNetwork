@@ -6,8 +6,6 @@ import java.util.Random;
  * @version 1.0
  */
 public class OutputNeuron extends Neuron {
-    protected double error;
-    protected double value;
     protected ArrayList<NeuralConnection> inputs;
     protected double bias;
 
@@ -31,24 +29,6 @@ public class OutputNeuron extends Neuron {
      */
     public OutputNeuron(ArrayList<NeuralConnection> inputs) {
         this(0, 0.5, inputs, new Random().nextDouble() * 2 - 1);
-    }
-
-    /**
-     * gets the error from this Neuron
-     * @return a double representing the error
-     */
-    @Override
-    public double getError() {
-        return error;
-    }
-
-    /**
-     * gets the value from this neuron
-     * @return a double representing the value
-     */
-    @Override
-    public double getValue() {
-        return value;
     }
 
     /**

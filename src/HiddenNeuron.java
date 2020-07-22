@@ -6,8 +6,6 @@ import java.util.Random;
  * @version 1.0
  */
 public class HiddenNeuron extends Neuron {
-    protected double error;
-    protected double value;
     protected ArrayList<NeuralConnection> inputs;
     protected ArrayList<NeuralConnection> outputs;
     protected double bias;
@@ -44,24 +42,6 @@ public class HiddenNeuron extends Neuron {
      */
     public ArrayList<NeuralConnection> getInputs() {
         return inputs;
-    }
-
-    /**
-     * gets the error from this Neuron
-     * @return a double representing the error
-     */
-    @Override
-    public double getError() {
-        return error;
-    }
-
-    /**
-     * gets the value from this neuron
-     * @return a double representing the value
-     */
-    @Override
-    public double getValue() {
-        return value;
     }
 
     /**

@@ -5,8 +5,6 @@ import java.util.ArrayList;
  * @version 1.0
  */
 public class InputNeuron extends Neuron {
-    protected double error;
-    protected double value;
     protected ArrayList<NeuralConnection> outputs;
 
     /**
@@ -28,23 +26,6 @@ public class InputNeuron extends Neuron {
         this(0.5, outputs);
     }
 
-    /**
-     * gets the error from this Neuron
-     * @return a double representing the error
-     */
-    @Override
-    public double getError() {
-        return error;
-    }
-
-    /**
-     * gets the value from this neuron
-     * @return a double representing the value
-     */
-    @Override
-    public double getValue() {
-        return value;
-    }
 
     /**
      * Sets the value for this input Neuron
